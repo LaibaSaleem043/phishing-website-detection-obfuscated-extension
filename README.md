@@ -20,16 +20,21 @@ A Machine Learning–based system to detect phishing websites using URL features
 
 ```
 
-Phishing-Website-Detection-System/
+FINAL_PROJECT/
 │
-├── app.py                         # Flask web application
-├── phishing.pkl                   # Trained model
-├── phishing_mnb.pkl               # MNB classifier
-├── vectorizer.pkl                 # TF-IDF vectorizer
-├── Dataset/                       # Dataset files
-├── venv/                          # Virtual environment
-├── requirements.txt               # Dependencies
-└── README.md
+├── chrome-extension/                 # Browser extension files
+├── Dataset/                          # Dataset files
+├── app_secure.py                     # Secure Flask application
+├── phishing.pkl                      # Trained ML model
+├── phishing_mnb.pkl                  # Multinomial Naive Bayes model
+├── vectorizer.pkl                    # TF-IDF vectorizer
+├── Phishing_website_detection_system.ipynb   # Main training notebook
+├── word2vec.ipynb                    # Word2Vec experimentation notebook
+├── app.log                           # Application log file
+├── requirements.txt                  # Project dependencies
+├── README.md                         # Project documentation
+└── .gitignore                        # Git ignore rules
+
 
 
 
@@ -163,4 +168,5 @@ If you retrain models locally, make sure to save them with the same filenames (o
 Contributions are welcome! Please open issues to report bugs or request features, and submit pull requests for proposed changes.
 
 ---
+
 
